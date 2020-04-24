@@ -1,0 +1,32 @@
+{
+    "rule 1":{
+        "conditions":{
+            "message user": "KowpakID",
+            "message contents": "test",
+            "message user role": "",
+            "message channel": "",
+            "message file": "false"
+        },
+        "response":{
+            "message contents": "sucker",
+            "message attachment": "",
+            "message react emoji": "tigerking",
+            "message reply": "true",
+            "message delete": "true",
+            "voice play audio": ""
+        }
+    },
+
+    "rule 2":{
+        "conditions":{
+            "voice user login": "",
+            "voice user logout": ""
+        },
+        "response":{
+            "message contents": "",
+            "message attachment": "",
+            "message react emoji": "",
+            "voice play audio": "https://soundfrancisco.com/wp-content/uploads/2019/09/ibeatchina.mp3"
+        }
+    }
+}

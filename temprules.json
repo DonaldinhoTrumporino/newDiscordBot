@@ -1,0 +1,56 @@
+{
+    "rule 1":{
+        "conditions":{
+            "message user": ["KowpakID"],
+            "message contents": "test",
+            "message user role": "",
+            "message channel": "testID",
+            "message file": "false"
+        },
+        "response":{
+            "message contents": "sucker",
+            "message attachment": "",
+            "message channel": "",
+            "message react emoji": "",
+            "message reply": "false",
+            "message delete": "false",
+            "voice play audio": ""
+        }
+    },
+
+    "rule 2":{
+        "conditions":{
+            "message user": ["KowpakID"],
+            "message contents": "asdf",
+            "message user role": "",
+            "message channel": "",
+            "message file": "false"
+        },
+        "response":{
+            "message contents": "ASDF",
+            "message attachment": "",
+            "message channel": "",
+            "message react emoji": "",
+            "message reply": "false",
+            "message delete": "false",
+            "voice play audio": ""
+        }
+    },
+
+    "rule 3":{
+        "conditions":{
+            "message user": ["KowpakID"],
+            "message contents": "play voice",
+            "message user role": "",
+            "message channel": "",
+            "message file": "false"
+        },
+        "response":{
+            "message contents": "",
+            "message attachment": "",
+            "message channel": "",
+            "voice play audio": "https://soundfrancisco.com/wp-content/uploads/2019/09/ibeatchina.mp3",
+            "voice channel": "ddstdID"
+        }
+    }
+}
